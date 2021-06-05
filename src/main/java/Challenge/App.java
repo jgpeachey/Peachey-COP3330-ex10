@@ -6,27 +6,35 @@
 package Challenge;
 
 /*
-Calculate gallons of paint needed to paint the ceiling of a room. Prompt
-for the length and width, and assume one gallon covers 350 square feet.
-Display the number of gallons needed to paint the ceiling as a whole number.
+Create a simple self-checkout system. Prompt for the prices and quantities
+of three items. Calculate the subtotal of the items. Then calculate the
+tax using a tax rate of 5.5%. Print out the line items with the quantity
+and total, and then print out the subtotal, tax amount, and total.
 
 Example Output:
-You will need to purchase 2 gallons of paint to cover 360 square feet.
-
-Remember, you can’t buy a partial gallon of paint. You must
-round up to the next whole gallon.
+Enter the price of item 1: 25
+Enter the quantity of item 1: 2
+Enter the price of item 2: 10
+Enter the quantity of item 2: 1
+Enter the price of item 3: 4
+Enter the quantity of item 3: 1
+Subtotal: $64.00
+Tax: $3.52
+Total: $67.52
 
 Constraints:
-Use a constant to hold the conversion rate.
-Ensure that you round up to the next whole number.
+*Keep the input, processing, and output parts of your program separate.
+Collect the input, then do the math operations and string building, and
+then print out the output.
+*Be sure you explicitly convert input to numerical data before doing any
+calculations.
 
 Challenges:
-*Revise the program to ensure that inputs are entered as numeric values.
-Don’t allow the user to proceed if the value entered is not numeric.
-*Implement support for a round room.
-*Implement support for an L-shaped room.
-*Implement a mobile version of this app so it can be used at the hardware
-store.
+*Revise the program to ensure that prices and quantities are entered as
+numeric values. Don’t allow the user to proceed if the value entered is
+not numeric.
+*Alter the program so that an indeterminate number of items can be entered.
+The tax and total are computed when there are no more items to be entered.
  */
 
 public class App {
